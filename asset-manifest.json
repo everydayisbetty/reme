@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reme/static/css/main.2dee3e3a.css",
-    "main.js": "/reme/static/js/main.7b6648ff.js",
+    "main.js": "/reme/static/js/main.fc01ff0b.js",
     "index.html": "/reme/index.html",
     "main.2dee3e3a.css.map": "/reme/static/css/main.2dee3e3a.css.map",
-    "main.7b6648ff.js.map": "/reme/static/js/main.7b6648ff.js.map"
+    "main.fc01ff0b.js.map": "/reme/static/js/main.fc01ff0b.js.map"
   },
   "entrypoints": [
     "static/css/main.2dee3e3a.css",
-    "static/js/main.7b6648ff.js"
+    "static/js/main.fc01ff0b.js"
   ]
 }
