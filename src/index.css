@@ -1,0 +1,101 @@
+/* src/index.css - 全局基础样式 */
+
+/* CSS重置和全局样式 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root {
+  isolation: isolate;
+  height: 100vh;
+}
+
+/* 确保应用占满整个视口 */
+#root,
+.app {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 移除默认的input和button样式 */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  all: unset;
+  box-sizing: border-box;
+}
+
+/* 确保焦点可见性 */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #007AFF;
+  outline-offset: 2px;
+}
+
+/* 文本选择样式 */
+::selection {
+  background-color: rgba(0, 122, 255, 0.2);
+  color: inherit;
+}
+
+/* 禁用某些元素的用户选择 */
+button,
+.btn,
+.card-item,
+.category-item,
+.toolbar button {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
