@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reme/static/css/main.2dee3e3a.css",
+    "main.js": "/reme/static/js/main.fc8553c1.js",
+    "index.html": "/reme/index.html",
+    "main.2dee3e3a.css.map": "/reme/static/css/main.2dee3e3a.css.map",
+    "main.fc8553c1.js.map": "/reme/static/js/main.fc8553c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dee3e3a.css",
+    "static/js/main.fc8553c1.js"
+  ]
+}
